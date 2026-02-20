@@ -7,17 +7,6 @@ export function HeroSection() {
   return (
     <section className="relative flex min-h-[92vh] items-center justify-center px-6">
       <div className="mx-auto max-w-4xl text-center">
-        {/* Availability Badge */}
-        <motion.div
-          initial={{ opacity: 0, y: 14 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.15 }}
-          className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2"
-        >
-          <span className="h-2 w-2 animate-pulse rounded-full bg-green-400" />
-          <span className="text-sm text-white/60">Available for opportunities</span>
-        </motion.div>
-
         {/* Title */}
         <motion.h1
           initial={{ opacity: 0, y: 18 }}
