@@ -42,7 +42,7 @@ export function SkillsSection() {
       icon: Cloud,
       title: "Cloud & DevOps",
       color: "from-orange-500 to-red-500",
-      skills: ["Azure", "Docker", "CI/CD", "Git", "App Insights", "Key Vault"],
+      skills: ["Azure/AWS", "Docker", "CI/CD", "Git", "App Insights", "Key Vault"],
     },
   ];
 
@@ -53,7 +53,7 @@ export function SkillsSection() {
     "Blazor",
     "React",
     "TypeScript",
-    "Azure",
+    "Azure/AWS",
     "SQL Server",
     "Docker",
     "CI/CD",

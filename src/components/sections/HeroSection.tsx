@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Linkedin, Mail, Phone } from "lucide-react";
+import { ArrowDown, Linkedin, Mail } from "lucide-react";
 import { site } from "../../config/site";
 import { ButtonLink } from "../ui/ButtonLink";
 
@@ -79,14 +79,6 @@ export function HeroSection() {
             ariaLabel="Email"
           >
             <Mail className="h-5 w-5" />
-          </ButtonLink>
-
-          <ButtonLink
-            href={`tel:${site.phone}`}
-            variant="icon"
-            ariaLabel="Phone"
-          >
-            <Phone className="h-5 w-5" />
           </ButtonLink>
         </motion.div>
       </div>
