@@ -127,8 +127,7 @@ export function ContactSection() {
             <div>
               <h3 className="mb-3 text-2xl font-bold text-white">Get in touch</h3>
               <p className="text-white/55">
-                I’m currently open to full-time roles and selective freelance work.
-                If you have something you want to build, let’s talk.
+                Let’s connect and build something great together.
               </p>
             </div>
 
