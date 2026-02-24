@@ -2,10 +2,12 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   background: #0a0a0f;
+  overflow-x: hidden;
 }
 
 @keyframes marquee {
@@ -18,7 +20,11 @@ body {
 }
 
 .marquee {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
   overflow: hidden;
+  overflow-x: clip;
 }
 
 .marquee__track {
@@ -33,6 +39,8 @@ body {
   align-items: center;
   gap: 2.5rem;
   padding-right: 2.5rem;
+  flex: 0 0 auto;
+  min-width: 100%;
 }
 
 @media (prefers-reduced-motion: reduce) {
